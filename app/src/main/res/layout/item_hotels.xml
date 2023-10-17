@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:padding="8dp"
+    android:layout_margin="5dp"
+    app:cardElevation="18dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageHotel"
+            android:layout_width="185dp"
+            android:layout_height="175dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/elksar"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/nomHotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/imageHotel"
+            android:text="Karthago El Ksar (El Ksar Resort &amp; Thalasso)"
+            android:textColor="#2E2929"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nomHotel"
+            android:layout_toEndOf="@+id/imageHotel"
+            android:progressTint="#FFC107"
+            android:secondaryProgressTint="#FFC107"
+            android:rating="3.5"
+            style="@style/Widget.AppCompat.RatingBar.Small"/>
+        <TextView
+            android:id="@+id/txtRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar"
+            android:layout_toEndOf="@+id/imageHotel"
+            android:text="4-star hotel"/>
+
+        <TextView
+            android:id="@+id/adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Address: Bd du 14 Janvier, Sousse 4031"
+            android:layout_below="@id/txtRating"
+            android:layout_toEndOf="@+id/imageHotel"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adress"
+            android:layout_toEndOf="@+id/imageHotel"
+            android:text="Phone: 73 240 460"
+            android:textColor="@color/black"/>
+
+
+
+
+    </RelativeLayout>
+
+    
+</androidx.cardview.widget.CardView>

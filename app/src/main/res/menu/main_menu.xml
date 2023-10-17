@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/menu_camera"
+        android:title="Profile"
+       >
+        <menu>
+            <item
+                android:id="@+id/menu_profile"
+                android:icon="@drawable/person"
+                android:title="Profile"
+                />
+            <item
+                android:id="@+id/menu_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout"
+                />
+        </menu>
+    </item>
+
+        <item
+            android:id="@+id/menu_urg"
+            android:icon="@drawable/home"
+            android:title="Urgence"
+
+            >
+            <menu>
+
+                <item
+                    android:id="@+id/menu_hopital"
+                    android:icon="@drawable/health"
+                    android:title="Hopital"
+
+                    />
+
+                <item
+                    android:id="@+id/menu_police"
+                    android:icon="@drawable/police"
+                    android:title="Police"
+
+                    />
+            </menu>
+        </item>
+
+
+        <item
+            android:id="@+id/menu_comm"
+            android:title="Communicate"
+            >
+            <menu>
+                <item
+                    android:id="@+id/menu_share"
+                    android:icon="@drawable/share"
+                    android:title="Share us"
+                    />
+                <item
+                    android:id="@+id/menu_rate"
+                    android:icon="@drawable/rate"
+                    android:title="Rate us"
+                    />
+            </menu>
+        </item>
+
+</menu>
+

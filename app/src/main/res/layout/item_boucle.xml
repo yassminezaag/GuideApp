@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:padding="8dp"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="#EAE8E8"
+    app:cardElevation="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvJour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#800E0909"
+            tools:text="06/01/2023"
+            android:textSize="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvText1"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:text="Tunisie"
+            android:textColor="#F7130E0E"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/tvImg1"
+            android:layout_width="51dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/tunisia"
+            />
+
+
+        <TextView
+            android:id="@+id/tvHeure"
+            android:layout_width="70dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="45dp"
+            android:text="16:00"
+            android:textColor="#800E0909"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/tvImg2"
+            android:layout_width="51dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/yemen" />
+
+        <TextView
+            android:id="@+id/tvText2"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="40dp"
+            android:text="Yemen"
+            android:textColor="#F7130E0E"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

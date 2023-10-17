@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">projet</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="phone_number">197</string>
+</resources>
